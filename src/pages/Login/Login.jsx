@@ -47,6 +47,10 @@ const Login = () => {
         <meta property="og:description" content="Learn, Grow with coding Problems" />
         <meta property="og:image" content="https://github-production-user-asset-6210df.s3.amazonaws.com/48323127/253534897-b0e9a27c-a4de-4ff2-b807-50797167c0a6.png" />
         <meta property="og:url" content="https:/codder.vercel.app" />
+        <meta property="title" content="Codder ©️" />
+        <meta property="description" content="Learn, Grow with coding Problems" />
+        <meta property="image" content="https://github-production-user-asset-6210df.s3.amazonaws.com/48323127/253534897-b0e9a27c-a4de-4ff2-b807-50797167c0a6.png" />
+        <meta property="url" content="https:/codder.vercel.app" />
     </Helmet>
       <img
         src={login}

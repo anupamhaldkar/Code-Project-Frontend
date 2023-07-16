@@ -4,7 +4,7 @@ import { useLogin } from "../../store/login/useLogin";
 import Footer from "../Footer/Footer";
 import { useEffect } from "react";
 import { toast } from "react-hot-toast";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
   const { isLoggined, loading } = useLogin();

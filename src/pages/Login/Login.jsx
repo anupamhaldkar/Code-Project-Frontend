@@ -4,7 +4,7 @@ import { useLogin } from "../../store/login/useLogin";
 import Footer from "../Footer/Footer";
 import { useEffect } from "react";
 import { toast } from "react-hot-toast";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
   const { isLoggined, loading } = useLogin();
@@ -47,6 +47,10 @@ const Login = () => {
         <meta property="og:description" content="Learn, Grow with coding Problems" />
         <meta property="og:image" content="https://github-production-user-asset-6210df.s3.amazonaws.com/48323127/253534897-b0e9a27c-a4de-4ff2-b807-50797167c0a6.png" />
         <meta property="og:url" content="https:/codder.vercel.app" />
+        <meta name="title" content="Codder ©️" />
+        <meta name="description" content="Learn, Grow with coding Problems" />
+        <meta name="image" content="https://github-production-user-asset-6210df.s3.amazonaws.com/48323127/253534897-b0e9a27c-a4de-4ff2-b807-50797167c0a6.png" />
+        <meta name="url" content="https:/codder.vercel.app" />
     </Helmet>
       <img
         src={login}
